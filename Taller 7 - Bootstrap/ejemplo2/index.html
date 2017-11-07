@@ -10,32 +10,80 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilo.css">
 
+	<link rel="stylesheet" href="./styles/coToolbarBaseChrome.css" type="text/css">
 	<script src="js/javascript1.js"></script>
   </head>
   <body>
     <!-- Optional JavaScript -->
+	
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-		<div class="navbar-header">
-		  <a class="navbar-brand" href="#">Sweet & Coffee</a>
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Sweet & Coffee</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Cafe</a></li>
+				<li><a href="#">Dulces</a></li>
+				<li><a href="#">Productos</a></li>
+				<li><a href="#">Compromiso</a></li>
+				<li><a href="#">Universidad del cafe</a></li>
+			</ul>
 		</div>
-		<ul class="nav navbar-nav navbar-right">
-		  <li><a href="#">Nosotros</a></li>
-		  <li><a href="#">Cafe</a></li>
-		  <li><a href="#">Dulces</a></li>
-		  <li><a href="#">Productos</a></li>
-		  <li><a href="#">Compromiso</a></li>
-		  <li><a href="#">Universidad del cafe</a></li>
-		</ul>
-	  </div>
 	</nav>
 	<div id="imagenprincipal" class="jumbotron container-fluid">
 	</div>
-	<div class=swipe >
-		<img src="img/productos/oreocookieshake.jpg">
-		<img src="img/productos/oreocookieshake.jpg">
-		<img src="img/productos/oreocookieshake.jpg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="carousel slide multi-item-carousel" id="theCarousel">
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/americano.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item active">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/cafebombon.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item active">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/cafelattecaliente.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item active">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/cafelattefrio.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item active">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/capuccino.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item active">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/capuccinocasa.jpg" class="img-responsive"></a></div>
+						</div>
+						<!-- add  more items here -->
+						<!-- Example item start:  -->
+						<div class="item">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/capuccinofrio.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/espresso.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/frappelatte.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/macchiato.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/moccachino.jpg" class="img-responsive"></a></div>
+						</div>
+						<div class="item">
+							<div class="col-md-2"><a href="#1"><img src="img/productos/oreocookieshake.jpg" class="img-responsive"></a></div>
+						</div>
+						<!--  Example item end -->
+					</div>
+					<a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+					<a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="container">
 	<div class="row">
@@ -108,5 +156,6 @@
 	  </div>
 	  <div class="col-md-1"></div>	
 	</div>
+
   </body>
 </html>
